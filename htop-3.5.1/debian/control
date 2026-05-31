@@ -1,0 +1,58 @@
+Source: htop
+Section: unknown
+Priority: optional
+Maintainer: N <318745@office.umcs.pl>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libnl-3-200:amd64,
+ bash-completion,
+ libssl-dev:amd64,
+ mobile-broadband-provider-info,
+ dracut-core,
+ yelp-xsl,
+ hwdata,
+ ibus-table,
+ libexpat1-dev:amd64,
+ adwaita-icon-theme,
+ xkb-data,
+ libssh2-1-dev:amd64,
+ libnl-genl-3-dev:amd64,
+ poppler-data,
+ m17n-db,
+ libhwloc-dev:amd64,
+ libsqlite3-dev:amd64,
+ mawk,
+ hicolor-icon-theme,
+ libncursesw6:amd64,
+ libnl-3-dev:amd64,
+ libncurses-dev:amd64,
+ geoclue-2.0,
+ libnuma-dev:amd64,
+ x11-xkb-utils,
+ libsensors-dev:amd64,
+ shared-mime-info,
+ libcppunit-dev:amd64,
+ tecla,
+ xfonts-utils,
+ libcap2:amd64,
+ zlib1g-dev:amd64,
+ xwayland,
+ pkgconf-bin,
+ libpkgconf7:amd64,
+ iso-codes,
+ libcap-dev:amd64,
+ libc-ares-dev:amd64,
+ 
+Standards-Version: 4.7.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/htop
+#Vcs-Git: https://salsa.debian.org/debian/htop.git
+Package: htop
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: An interactive process viewer
+ This is htop, a cross-platform interactive process viewer. It is a text-mode
+ application (for console or X terminals) and requires ncurses.

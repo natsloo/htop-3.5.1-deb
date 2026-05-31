@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 31 May 2026 14:52:49 +0200
+Source: htop
+Binary: htop
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 3.5.1-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: N <318745@office.umcs.pl>
+Changed-By: Natalia Kusmierczyk <318745@office.umcs.pl>
+Description:
+ htop       - An interactive process viewer
+Changes:
+ htop (3.5.1-1) UNRELEASED; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ cbaba8c6bd399ae364a461124049314070af7f51 547400 htop-dbgsym_3.5.1-1_amd64.ddeb
+ d21fdc2599ed2637b9020f8caef59c7fc5d5c6ae 16562 htop_3.5.1-1_amd64.buildinfo
+ 4cb463528015e30fc04594d385202af118bf5fd5 178098 htop_3.5.1-1_amd64.deb
+Checksums-Sha256:
+ 0aa8d1ded7707bb816b87bc15a6d56498608c3eb5d9077c8a94c36acd6f249b9 547400 htop-dbgsym_3.5.1-1_amd64.ddeb
+ fcbb3c46aef06d70f1db866b5063db962c15c7936f011eefc1d6e9b376729b23 16562 htop_3.5.1-1_amd64.buildinfo
+ 0061c2d383632d1e33e728262e95a7a492c73b5b68c2ff753548d785620d6477 178098 htop_3.5.1-1_amd64.deb
+Files:
+ d5293d1ef3acc137ac195a562469e122 547400 debug optional htop-dbgsym_3.5.1-1_amd64.ddeb
+ e8d27f18545f7d8a28f9d6e77cdc3598 16562 unknown optional htop_3.5.1-1_amd64.buildinfo
+ 021230bfd74fe8a37d1497b9f8f88c8b 178098 unknown optional htop_3.5.1-1_amd64.deb
